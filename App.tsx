@@ -36,7 +36,7 @@ import {
   X,
   Edit2,
   Trash2,
-  CloudCheck,
+  Cloud,
   PiggyBank
 } from 'lucide-react';
 
@@ -297,7 +297,7 @@ const App: React.FC = () => {
       return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50">
             <div className="animate-spin text-indigo-600 mb-4">
-                <CloudCheck size={40} />
+                <Cloud size={40} />
             </div>
             <div className="text-slate-600 font-medium animate-pulse">Sincronizando con la nube...</div>
         </div>
@@ -339,7 +339,7 @@ const App: React.FC = () => {
                   className="flex items-center gap-2 px-3 py-1.5 bg-emerald-100 text-emerald-700 rounded-full text-xs font-bold border border-emerald-200"
                   title="Tus datos se guardan en Google Cloud"
                 >
-                    <CloudCheck size={16} />
+                    <Cloud size={16} />
                     <span className="hidden sm:inline">En línea</span>
                 </div>
             </div>
